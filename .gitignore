@@ -1,0 +1,49 @@
+# =========================
+# Python (Backend)
+# =========================
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+
+# SQLite Database
+backend/*.db
+backend/*.sqlite3
+
+# Uploads (optional)
+backend/uploads/receipts/*
+!backend/uploads/receipts/.gitkeep
+
+# =========================
+# React (Frontend)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Git
+# =========================
+*.swp
